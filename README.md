@@ -15,8 +15,8 @@ Clone the code templates repo at android-templates
 
 2. ```run sh copy_templates.sh```
 
-This would copy the templates to $HOME/.android , in-turn allows the templates to be discoverable by Android Studio
+This would copy the templates to ```$HOME/.android``` , in-turn allows the templates to be discoverable by Android Studio
 
 ### Usage
 
-1. Right click on any of the package folder, and then New > Other > Halodoc Feature Template.
+1. Right click on any of the package folder, and then **New > Other > Halodoc Feature Template**.
