@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="Halodoc Feature Template"
+    description="Creates new files as per halodoc feature architecture">
+
+    <category value="Other" />
+
+    <parameter
+        id="featureName"
+        name="Feature Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="SampleFeature"
+        help="The name of the feature for which files to be created" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.halodoc.feature" />
+
+    <parameter
+        id="containsLocalDataSource"
+        name="containsLocalDataSource"
+        type="boolean"
+        default="false"
+        help="If true, this feature will have a LocalDataSource, accessed in Repository" />
+
+    <parameter
+        id="containsLiveConnectSource"
+        name="containsLiveConnectSource"
+        type="boolean"
+        default="false"
+        help="If true, this feature will have a LiveConnectSource, accessed in Repository" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
