@@ -29,4 +29,25 @@ Optionally choose **containsLocalDataSource** and **containsLiveConnectDataSourc
 3. Ensure the files created as per the naming conventions
 <img width="676" alt="Screen Shot 2020-02-11 at 1 05 50 PM" src="https://user-images.githubusercontent.com/90022116/133195006-1f6ef9f6-f05e-44db-94e1-07dfbb310e9b.png">
 
+## File Templates
+### Installation
+
+1. Navigate to `file-templates` folder
+
+2. download `settings.zip`
+
+3. import the downloaded `settings.zip` to Android studio via
+
+<img width="394" alt="Screen Shot 2020-02-11 at 1 38 11 PM" src="https://user-images.githubusercontent.com/90022116/133195397-353eb254-ad1c-456c-b613-bc3707e8168e.png">
+
+### Usage
+
+1. Right click on any of the package folder, and then **New** > Choose Available **Halodoc File templates** (ex . Halodoc Fragment with ViewModel)
+
+<img width="790" alt="Screen Shot 2020-02-11 at 1 45 17 PM" src="https://user-images.githubusercontent.com/90022116/133195502-34319adb-c4d9-4b72-a8c1-d1d8b7a8c14b.png">
+
+2. Configure the components name
+
+<img width="502" alt="Screen Shot 2020-02-11 at 1 50 27 PM" src="https://user-images.githubusercontent.com/90022116/133195558-51f3e5e4-e866-4423-9e3d-4f5584863128.png">
+
 
